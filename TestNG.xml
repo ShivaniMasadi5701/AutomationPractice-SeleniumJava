@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="siteURL" value="https://automationexercise.com/"/>
+
+    <test name="Test" thread-count="5">
+        <classes>
+            <class name="com.automationExercise.register.test.RegisterTest"/>
+        </classes>
+    </test>
+
+</suite>

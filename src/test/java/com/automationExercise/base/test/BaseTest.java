@@ -10,9 +10,12 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 
+import com.automationExercise.register.page.RegisterPage;
+
 public class BaseTest {
 	
 	public WebDriver driver;
+	public RegisterPage registerPage;
 	
 	public void getBrowserAndWebsite(String browser, String siteURL) { 
 	    switch (browser.toLowerCase()) {
