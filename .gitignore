@@ -1,5 +1,27 @@
-/target/
-/.settings/
-/.project
-/.classpath
-/logs/
+# TestNG / Selenium reports
+test-output/
+target/
+
+# Logs
+*.log
+
+# Screenshots & images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# HTML reports
+*.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Eclipse specific
+.project
+.classpath
+.settings/
+
+# Java compiled files
+*.class
